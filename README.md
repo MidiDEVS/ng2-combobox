@@ -108,7 +108,7 @@ validator function definition in your page or component controller:
     }
   }
 ```
-validator wireing in your template via `inputValidator` attribute:
+Validator wireing in your template via `inputValidator` attribute:
 ```
 <combo-box [inputValidator]="validatorFn" [listData]="local_types" [displayField]="'name'" [valueField]="'value'"></combo-box>
 ```
@@ -132,9 +132,9 @@ fires when the initial value has been set
 `onValidChange: EventEmitter<string>();`  
 fires when the validity of the input changed
 
-#### Styling
+### Styling
 
-Styling the `combo-box`s invalid input element:
+Styling the `combo-box` invalid input element:
 This method works at any encapsulation mode
 ```
 /deep/ .inputInvalid {
