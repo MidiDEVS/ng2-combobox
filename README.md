@@ -135,7 +135,6 @@ fires when the validity of the input changed
 ### Styling
 
 Styling the `combo-box` invalid input element:
-This method works at any encapsulation mode
 ```
 /deep/ .inputInvalid {
     border: 1px solid red;
